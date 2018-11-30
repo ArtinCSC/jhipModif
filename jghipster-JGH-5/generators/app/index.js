@@ -183,6 +183,10 @@ module.exports = class extends BaseGenerator {
                 this.checkJava();
             },
 
+            validateGo() {
+                this.checkGo();
+            },
+
             validateNode() {
                 this.checkNode();
             },
