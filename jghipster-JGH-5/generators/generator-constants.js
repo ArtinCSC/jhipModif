@@ -57,10 +57,11 @@ const DOCKER_GRAFANA_WATCHER = 'quay.io/coreos/grafana-watcher:v0.0.8';
 const JAVA_VERSION = '1.8'; // Java version is forced to be 1.8. We keep the variable as it might be useful in the future.
 const SCALA_VERSION = '2.12.6';
 
-// version of Node, Yarn, NPM
+// version of Node, Yarn, NPM, Go
 const NODE_VERSION = '8.12.0';
 const YARN_VERSION = '1.10.1';
 const NPM_VERSION = '6.4.1';
+const GO_VERSION = '1.11.2';
 
 // all constants used throughout all generators
 
@@ -272,6 +273,7 @@ const constants = {
     NODE_VERSION,
     YARN_VERSION,
     NPM_VERSION,
+    GO_VERSION,
     DOCKER_JENKINS,
     DOCKER_SWAGGER_EDITOR,
     SQL_DB_OPTIONS,
